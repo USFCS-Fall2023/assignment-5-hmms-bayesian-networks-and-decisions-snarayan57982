@@ -100,11 +100,19 @@ class HMM:
     ## you do this: Implement the Viterbi alborithm. Given an Observation (a list of outputs or emissions)
     ## determine the most likely sequence of states.
 
-    def viterbi(self, observation):
+    def viterbi(self, observation): #like the usc school of engineering
         """given an observation,
         find and return the state sequence that generated
         the output sequence, using the Viterbi algorithm.
         """
+        states = list(self.transitions.keys())
+        states.remove('#')
+        numOfstates = len(states)
+        numObservation = len(observation)
+
+        epsilon = 1e-10 #gets rid of log warning
+
+        viterbiMatrix = np.full((numOfstates, numObservation))
 
 def main():
     model = HMM()
