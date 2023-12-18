@@ -1,0 +1,41 @@
+Assignment 5 comments:
+
+Question 1:
+a. Choosing a route  10/10
+
+b. new info  10/10
+
+c. value of information: 6/10
+You're on the right track, but if R3 is not smooth, we will take R1, so you
+need to account for that.
+
+d: chatGPT:  5/5
+
+Question 2: HMMs
+
+a: load 5/5
+
+b. generate 9/10
+Unable to test this.
+
+c. forward 2/10
+Not completed.
+
+d. viterbi  2/10
+Not completed.
+
+Question 3: Bayesian Nets
+
+a. query  0/5
+Not done 
+
+b. Car net 0/10
+Not done
+
+c. new node  0/10
+Not done
+
+(grad students only) AINow nice job! 
+
+54/100
+
